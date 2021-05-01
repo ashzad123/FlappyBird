@@ -20,6 +20,7 @@ if __name__ == '__main__':
     pygame.init()#INITIALIZATION OF PYGAME
     FPSCLOCK = pygame.time.Clock()
     pygame.display.set_caption("Flappy Bird By Ashzad")#CAPTION THAT WILL BE DISPLAYED IN THE WINDOW
+    #CREATING THE DICTIONARIES FOR IMAGES AND SOUNDS
     GAME_SPRITES['numbers']=(
         pygame.image.load('sprites/0.png').convert_alpha(),
         pygame.image.load('sprites/1.png').convert_alpha(),
